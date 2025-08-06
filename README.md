@@ -6,6 +6,10 @@ Projeto pertencente ao Challange da formação Iniciante em Programação da Ora
 
 O site permite que uma lista variada de amigos seja adicionada por meio de um campo específico, em seguida é possível clicar na opção "Sortear Amigo" para escolher um nome aleatório daqueles que foram incluídos na lista.
 
+## Acesse aqui:
+
+ - [Projeto Amigo Secreto](https://devkauegomes.github.io/amigo-secreto/)
+
 ## Funcionalidades
 
 - Criação de uma lista de Amigos.
