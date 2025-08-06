@@ -29,3 +29,20 @@ function atualizarListaDeAmigos() {
     lista.appendChild(item);
   }
 }
+
+function sortearAmigo() {
+  const lista = document.querySelector("#listaAmigos");
+  lista.innerHTML = "";
+
+  if (amigos.length === 0) {
+    alert("Não é possível sortear. Adicione amigos à lista primeiro!");
+    return;
+  }
+
+  const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+  const amigoSorteado = amigos[indiceAleatorio];
+
+  const elementoResultado = document.querySelector("#resultado");
+  elementoResultado.innerHTML = `O amigo secreto sorteado é: <strong>${amigoSorteado}</strong>`;
+}
